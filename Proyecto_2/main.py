@@ -6,12 +6,12 @@ import pandas as pd
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
-from Proyecto_2.inferencia import pronosticar
+from inferencia import pronosticar
 # 1. Importamos la clase de respuesta junto a la de solicitud
-from Proyecto_2.esquema import SolicitudPronostico, RespuestaPronostico
+from esquema import SolicitudPronostico, RespuestaPronostico
 
 # Ruta del bundle, donde se encuentra alojada
-NOMBRE_BUNDLE = "Proyecto_2/modelo_demanda.joblib"
+NOMBRE_BUNDLE = "modelo_demanda.joblib"
 
 estado_servicio = {"bundle": None}
 
