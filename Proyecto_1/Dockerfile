@@ -19,7 +19,7 @@ COPY requirements.txt .
 
 #INSTALAMOS LAS LIBRERIAS
 
-RUN pip install --no.cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 #COPIAMOS TODOS LOS ARCHIVOS
 COPY . .
