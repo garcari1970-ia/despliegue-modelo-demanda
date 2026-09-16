@@ -22,7 +22,7 @@ COPY requirements.txt .
 RUN pip install --no.cache-dir -r requirements.txt
 
 #COPIAMOS TODOS LOS ARCHIVOS
-COPY ..
+COPY . .
 
 #DOCUMENTACION DE PUERTO
 
