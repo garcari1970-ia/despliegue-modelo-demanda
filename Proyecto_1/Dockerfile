@@ -2,7 +2,7 @@
 
 # la imagen base
 
-FROM python 3.12-slim
+FROM python:3.12-slim
 
 #la carpeta donde va a vivir todo dentro del contenedor
 
